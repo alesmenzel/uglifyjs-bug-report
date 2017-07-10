@@ -1,0 +1,19 @@
+{
+  "name": "uglifyjs-bug-report",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "build": "node_modules/.bin/webpack"
+  },
+  "dependencies": {
+    "isemail": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack": "^3.1.0"
+  }
+}
